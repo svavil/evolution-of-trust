@@ -1,15 +1,8 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Jun 21 19:14:52 2021
-
-@author: vavilse1
-"""
-
 class Bot():
     def __init__(self):
         self.history = []
     
-    def move(self, history):
+    def move(self):
         raise NotImplementedError
         
     def append_history(self, move):
